@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./signup.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="overlay-form">
+        <div class="close-btn" onclick="toggleForm()">×</div>
+        <h1>Create a new account</h1>
+        <p>Join our community. Let's set up your account</p>
+        <div class="form-element">
+          <label for="fullname">Fullname</label>
+          <input type="text" id="fullname">
+        </div>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+        </div>
+        <div class="form-element">
+          <label for="password-1">Password</label>
+          <input type="password" id="password-1">
+        </div>
+        <div class="form-element">
+          <label for="password-2">Confirm password</label>
+          <input type="password" id="password-2">
+        </div>
+        <div class="form-element">
+          <button>Signup</button>
+        </div>
+      </div>
+      <div class="center">
+        <button onclick="toggleForm()">Signup</button>
+      </div>
+    <script src="./app.js" ></script>
+  </body>
+</html>
